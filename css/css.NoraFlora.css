@@ -15,10 +15,16 @@ display: flex;
 }
 footer{
     background-color: darkgreen;
+    color: white;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
