@@ -9,8 +9,16 @@ display: flex;
     color: white;
 }
 .logo{
-
+    font-family: helvetica thin;
+    font-size: larger;
+    color: white;
 }
 footer{
+    background-color: darkgreen;
+}
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
