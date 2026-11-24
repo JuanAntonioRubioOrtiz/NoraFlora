@@ -9,7 +9,7 @@ display: flex;
     color: white;
 }
 .logo{
-    font-family: helvetica thin;
+    font-family: sans-serif;
     font-size: larger;
     color: white;
 }
@@ -27,4 +27,8 @@ nav{
 a{
     color: white;
     text-decoration: none;
+}
+
+* {
+    font-family: Arial;
 }
