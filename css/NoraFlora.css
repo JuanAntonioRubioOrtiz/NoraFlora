@@ -55,3 +55,15 @@ a:hover {
 * {
     font-family: Arial;
 }
+
+.banner-homepage {
+    justify-content: flex-start;
+    background-color: rgb(223, 223, 223);
+    padding: 1rem;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    font-family: Arial, Helvetica;
+    color: rgb(40, 40, 40);
+    border-radius: 5px;
+    width: 50%;
+}
