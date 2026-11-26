@@ -8,6 +8,10 @@ header {
     color: white;
 }
 
+.header-image {
+    align-items: center;
+}
+
 .home-image {
     width: 100%;
     height: 300px;
@@ -41,7 +45,7 @@ footer {
     width: 100%;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -67,7 +71,7 @@ a:hover {
 
 .vakjes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolommen */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 1100px;
     margin: 0 auto;
@@ -110,11 +114,26 @@ a:hover {
     height: auto;
 }
 
-.home-pagina {
+.home-pagina-bottom {
+    margin-top: 50px;
     background-color: #30694B;
-    color:white;
+    color: beige;
     justify-content: center;
     text-align:center;
+    flex-direction: row;
+    display:flex;
+}
+
+.bottom-text-home {
+   width: 500px; 
+}
+
+.bottom-image-home {
+    align-items:center;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .Assortiment{
@@ -144,4 +163,45 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.1rem;
+}
+.NeemContact {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contactformulier */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.contact-form textarea {
+    height: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+}
+
+.contact-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-text-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
