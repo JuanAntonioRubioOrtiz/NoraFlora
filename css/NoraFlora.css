@@ -112,10 +112,11 @@ a:hover {
 
 .home-pagina {
     background-color: #30694B;
-    padding: ;
     color:white;
     justify-content: center;
     text-align:center;
+}
+
 .Assortiment{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -123,6 +124,7 @@ a:hover {
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .Assortiment figure{
     margin: 0;
     text-align: center;
