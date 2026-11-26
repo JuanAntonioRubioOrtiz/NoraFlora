@@ -74,6 +74,10 @@ a:hover {
 }
 
 .vakje {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -10px;
     background-color: #d9ecb8; 
     border-radius: 12px;
     overflow: hidden;
@@ -104,4 +108,12 @@ a:hover {
     color: rgb(40, 40, 40);
     width: 100%;
     height: auto;
+}
+
+.home-pagina {
+    background-color: #30694B;
+    padding: ;
+    color:white;
+    justify-content: center;
+    text-align:center;
 }
