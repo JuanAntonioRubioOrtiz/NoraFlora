@@ -110,11 +110,26 @@ a:hover {
     height: auto;
 }
 
-.home-pagina {
+.home-pagina-bottom {
+    margin-top: 50px;
     background-color: #30694B;
-    color:white;
+    color: beige;
     justify-content: center;
     text-align:center;
+    flex-direction: row;
+    display:flex;
+}
+
+.bottom-text-home {
+   width: 500px; 
+}
+
+.bottom-image-home {
+    align-items:center;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .Assortiment{
